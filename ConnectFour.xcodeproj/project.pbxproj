@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7437348C18B5335F00132686 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7437348B18B5335F00132686 /* Cocoa.framework */; };
+		7437348E18B5335F00132686 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7437348D18B5335F00132686 /* SpriteKit.framework */; };
+		7437349818B5335F00132686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7437349618B5335F00132686 /* InfoPlist.strings */; };
+		7437349A18B5335F00132686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437349918B5335F00132686 /* main.m */; };
+		7437349E18B5335F00132686 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7437349C18B5335F00132686 /* Credits.rtf */; };
+		743734A018B5335F00132686 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437349F18B5335F00132686 /* MainMenu.xib */; };
+		743734A218B5335F00132686 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743734A118B5335F00132686 /* MyScene.m */; };
+		743734A518B5336000132686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 743734A418B5336000132686 /* AppDelegate.m */; };
+		743734AA18B5336000132686 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 743734A918B5336000132686 /* logo.png */; };
+		743734B118B5336000132686 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743734B018B5336000132686 /* XCTest.framework */; };
+		743734B218B5336000132686 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7437348B18B5335F00132686 /* Cocoa.framework */; };
+		743734BA18B5336000132686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 743734B818B5336000132686 /* InfoPlist.strings */; };
+		743734BC18B5336000132686 /* ConnectFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743734BB18B5336000132686 /* ConnectFourTests.m */; };
+		743734C818B53AA300132686 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 743734C718B53AA300132686 /* Board.png */; };
+		743734CE18B53F4C00132686 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 743734CD18B53F4C00132686 /* Player.m */; };
+		743734D118B53F8000132686 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 743734D018B53F8000132686 /* Board.m */; };
+		743734D718B5596800132686 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 743734D618B5596800132686 /* Black.png */; };
+		744617731AFCDA330018CAC5 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 744617721AFCDA330018CAC5 /* Red.png */; };
+		745C09B618C8143B00A7F65F /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 745C09B518C8143B00A7F65F /* Menu.m */; };
+		745C09BA18C81BF200A7F65F /* AI_v_Dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 745C09B718C81BF200A7F65F /* AI_v_Dummy.png */; };
+		745C09BB18C81BF200A7F65F /* Player_v_AI.png in Resources */ = {isa = PBXBuildFile; fileRef = 745C09B818C81BF200A7F65F /* Player_v_AI.png */; };
+		745C09BC18C81BF200A7F65F /* Player_v_Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 745C09B918C81BF200A7F65F /* Player_v_Player.png */; };
+		7465F6B318CAA06100F9FE44 /* CompVSComp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465F6B218CAA06100F9FE44 /* CompVSComp.m */; };
+		7465F6B618CBF15300F9FE44 /* PlayerVSComp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465F6B518CBF15300F9FE44 /* PlayerVSComp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		743734B318B5336000132686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7437348018B5335F00132686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7437348718B5335F00132686;
+			remoteInfo = ConnectFour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7437348818B5335F00132686 /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7437348B18B5335F00132686 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7437348D18B5335F00132686 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7437349018B5335F00132686 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7437349118B5335F00132686 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7437349218B5335F00132686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7437349518B5335F00132686 /* ConnectFour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectFour-Info.plist"; sourceTree = "<group>"; };
+		7437349718B5335F00132686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7437349918B5335F00132686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7437349B18B5335F00132686 /* ConnectFour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnectFour-Prefix.pch"; sourceTree = "<group>"; };
+		7437349D18B5335F00132686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7437349F18B5335F00132686 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		743734A118B5335F00132686 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		743734A318B5335F00132686 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		743734A418B5336000132686 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		743734A618B5336000132686 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		743734A918B5336000132686 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		743734AF18B5336000132686 /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		743734B018B5336000132686 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		743734B718B5336000132686 /* ConnectFourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectFourTests-Info.plist"; sourceTree = "<group>"; };
+		743734B918B5336000132686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		743734BB18B5336000132686 /* ConnectFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectFourTests.m; sourceTree = "<group>"; };
+		743734C718B53AA300132686 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		743734CC18B53F4C00132686 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		743734CD18B53F4C00132686 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		743734CF18B53F8000132686 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		743734D018B53F8000132686 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		743734D618B5596800132686 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		744617721AFCDA330018CAC5 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		745C09B418C8143B00A7F65F /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		745C09B518C8143B00A7F65F /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		745C09B718C81BF200A7F65F /* AI_v_Dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AI_v_Dummy.png; sourceTree = "<group>"; };
+		745C09B818C81BF200A7F65F /* Player_v_AI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_v_AI.png; sourceTree = "<group>"; };
+		745C09B918C81BF200A7F65F /* Player_v_Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_v_Player.png; sourceTree = "<group>"; };
+		7465F6B118CAA06100F9FE44 /* CompVSComp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompVSComp.h; sourceTree = "<group>"; };
+		7465F6B218CAA06100F9FE44 /* CompVSComp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompVSComp.m; sourceTree = "<group>"; };
+		7465F6B418CBF15300F9FE44 /* PlayerVSComp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVSComp.h; sourceTree = "<group>"; };
+		7465F6B518CBF15300F9FE44 /* PlayerVSComp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVSComp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7437348518B5335F00132686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7437348E18B5335F00132686 /* SpriteKit.framework in Frameworks */,
+				7437348C18B5335F00132686 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743734AC18B5336000132686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743734B218B5336000132686 /* Cocoa.framework in Frameworks */,
+				743734B118B5336000132686 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7437347F18B5335F00132686 = {
+			isa = PBXGroup;
+			children = (
+				7437349318B5335F00132686 /* ConnectFour */,
+				743734B518B5336000132686 /* ConnectFourTests */,
+				7437348A18B5335F00132686 /* Frameworks */,
+				7437348918B5335F00132686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7437348918B5335F00132686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7437348818B5335F00132686 /* ConnectFour.app */,
+				743734AF18B5336000132686 /* ConnectFourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7437348A18B5335F00132686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7437348B18B5335F00132686 /* Cocoa.framework */,
+				7437348D18B5335F00132686 /* SpriteKit.framework */,
+				743734B018B5336000132686 /* XCTest.framework */,
+				7437348F18B5335F00132686 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7437348F18B5335F00132686 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7437349018B5335F00132686 /* AppKit.framework */,
+				7437349118B5335F00132686 /* CoreData.framework */,
+				7437349218B5335F00132686 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7437349318B5335F00132686 /* ConnectFour */ = {
+			isa = PBXGroup;
+			children = (
+				743734A418B5336000132686 /* AppDelegate.m */,
+				743734A618B5336000132686 /* AppDelegate.h */,
+				745C09B418C8143B00A7F65F /* Menu.h */,
+				745C09B518C8143B00A7F65F /* Menu.m */,
+				7465F6B118CAA06100F9FE44 /* CompVSComp.h */,
+				7465F6B218CAA06100F9FE44 /* CompVSComp.m */,
+				7465F6B418CBF15300F9FE44 /* PlayerVSComp.h */,
+				7465F6B518CBF15300F9FE44 /* PlayerVSComp.m */,
+				743734A118B5335F00132686 /* MyScene.m */,
+				743734A318B5335F00132686 /* MyScene.h */,
+				743734CF18B53F8000132686 /* Board.h */,
+				743734D018B53F8000132686 /* Board.m */,
+				743734CC18B53F4C00132686 /* Player.h */,
+				743734CD18B53F4C00132686 /* Player.m */,
+				743734D618B5596800132686 /* Black.png */,
+				744617721AFCDA330018CAC5 /* Red.png */,
+				745C09B718C81BF200A7F65F /* AI_v_Dummy.png */,
+				745C09B818C81BF200A7F65F /* Player_v_AI.png */,
+				745C09B918C81BF200A7F65F /* Player_v_Player.png */,
+				743734C718B53AA300132686 /* Board.png */,
+				7437349F18B5335F00132686 /* MainMenu.xib */,
+				743734A918B5336000132686 /* logo.png */,
+				7437349418B5335F00132686 /* Supporting Files */,
+			);
+			path = ConnectFour;
+			sourceTree = "<group>";
+		};
+		7437349418B5335F00132686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7437349518B5335F00132686 /* ConnectFour-Info.plist */,
+				7437349618B5335F00132686 /* InfoPlist.strings */,
+				7437349918B5335F00132686 /* main.m */,
+				7437349B18B5335F00132686 /* ConnectFour-Prefix.pch */,
+				7437349C18B5335F00132686 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		743734B518B5336000132686 /* ConnectFourTests */ = {
+			isa = PBXGroup;
+			children = (
+				743734BB18B5336000132686 /* ConnectFourTests.m */,
+				743734B618B5336000132686 /* Supporting Files */,
+			);
+			path = ConnectFourTests;
+			sourceTree = "<group>";
+		};
+		743734B618B5336000132686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				743734B718B5336000132686 /* ConnectFourTests-Info.plist */,
+				743734B818B5336000132686 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7437348718B5335F00132686 /* ConnectFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743734BF18B5336000132686 /* Build configuration list for PBXNativeTarget "ConnectFour" */;
+			buildPhases = (
+				7437348418B5335F00132686 /* Sources */,
+				7437348518B5335F00132686 /* Frameworks */,
+				7437348618B5335F00132686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectFour;
+			productName = ConnectFour;
+			productReference = 7437348818B5335F00132686 /* ConnectFour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		743734AE18B5336000132686 /* ConnectFourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743734C218B5336000132686 /* Build configuration list for PBXNativeTarget "ConnectFourTests" */;
+			buildPhases = (
+				743734AB18B5336000132686 /* Sources */,
+				743734AC18B5336000132686 /* Frameworks */,
+				743734AD18B5336000132686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743734B418B5336000132686 /* PBXTargetDependency */,
+			);
+			name = ConnectFourTests;
+			productName = ConnectFourTests;
+			productReference = 743734AF18B5336000132686 /* ConnectFourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7437348018B5335F00132686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Scott McAllister";
+				TargetAttributes = {
+					743734AE18B5336000132686 = {
+						TestTargetID = 7437348718B5335F00132686;
+					};
+				};
+			};
+			buildConfigurationList = 7437348318B5335F00132686 /* Build configuration list for PBXProject "ConnectFour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7437347F18B5335F00132686;
+			productRefGroup = 7437348918B5335F00132686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7437348718B5335F00132686 /* ConnectFour */,
+				743734AE18B5336000132686 /* ConnectFourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7437348618B5335F00132686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743734C818B53AA300132686 /* Board.png in Resources */,
+				743734AA18B5336000132686 /* logo.png in Resources */,
+				7437349818B5335F00132686 /* InfoPlist.strings in Resources */,
+				745C09BA18C81BF200A7F65F /* AI_v_Dummy.png in Resources */,
+				745C09BC18C81BF200A7F65F /* Player_v_Player.png in Resources */,
+				743734D718B5596800132686 /* Black.png in Resources */,
+				744617731AFCDA330018CAC5 /* Red.png in Resources */,
+				7437349E18B5335F00132686 /* Credits.rtf in Resources */,
+				745C09BB18C81BF200A7F65F /* Player_v_AI.png in Resources */,
+				743734A018B5335F00132686 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743734AD18B5336000132686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743734BA18B5336000132686 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7437348418B5335F00132686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7465F6B318CAA06100F9FE44 /* CompVSComp.m in Sources */,
+				743734A218B5335F00132686 /* MyScene.m in Sources */,
+				7437349A18B5335F00132686 /* main.m in Sources */,
+				745C09B618C8143B00A7F65F /* Menu.m in Sources */,
+				743734A518B5336000132686 /* AppDelegate.m in Sources */,
+				743734CE18B53F4C00132686 /* Player.m in Sources */,
+				7465F6B618CBF15300F9FE44 /* PlayerVSComp.m in Sources */,
+				743734D118B53F8000132686 /* Board.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743734AB18B5336000132686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743734BC18B5336000132686 /* ConnectFourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		743734B418B5336000132686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7437348718B5335F00132686 /* ConnectFour */;
+			targetProxy = 743734B318B5336000132686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7437349618B5335F00132686 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7437349718B5335F00132686 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7437349C18B5335F00132686 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7437349D18B5335F00132686 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		743734B818B5336000132686 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743734B918B5336000132686 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743734BD18B5336000132686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		743734BE18B5336000132686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		743734C018B5336000132686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFour/ConnectFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		743734C118B5336000132686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFour/ConnectFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		743734C318B5336000132686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/Contents/MacOS/ConnectFour";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConnectFourTests/ConnectFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		743734C418B5336000132686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/Contents/MacOS/ConnectFour";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFourTests/ConnectFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7437348318B5335F00132686 /* Build configuration list for PBXProject "ConnectFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743734BD18B5336000132686 /* Debug */,
+				743734BE18B5336000132686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743734BF18B5336000132686 /* Build configuration list for PBXNativeTarget "ConnectFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743734C018B5336000132686 /* Debug */,
+				743734C118B5336000132686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743734C218B5336000132686 /* Build configuration list for PBXNativeTarget "ConnectFourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743734C318B5336000132686 /* Debug */,
+				743734C418B5336000132686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7437348018B5335F00132686 /* Project object */;
+}
